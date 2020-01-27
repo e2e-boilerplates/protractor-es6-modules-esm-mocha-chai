@@ -1,4 +1,4 @@
-const { expect } from "chai";
+import { expect } from "chai";
 
 describe("Sandbox", () => {
   before(() => {
