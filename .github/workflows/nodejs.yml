@@ -1,9 +1,9 @@
-name: protractor-es6-modules-esm-jasmine-expect
+name: protractor-es6-modules-esm-mocha-chai
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 1-31/2 * *' 
+    - cron: "0 0 1-31/2 * *"
 
 jobs:
   build:

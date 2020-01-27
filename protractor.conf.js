@@ -4,10 +4,10 @@ exports.config = {
   capabilities: {
     browserName: "chrome"
   },
-  framework: "jasmine",
-  jasmineNodeOpts: {
-    isVerbose: true,
-    realtimeFailure: true
+  framework: "mocha",
+  mochaOpts: {
+    reporter: "dot",
+    slow: 3000
   },
   onPrepare: () => {
     /* eslint-disable-next-line global-require */
