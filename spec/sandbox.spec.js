@@ -1,4 +1,4 @@
-const { expect } from "chai";
+import { expect } from "chai";
 
 describe("Sandbox", () => {
   before(() => {
@@ -10,6 +10,6 @@ describe("Sandbox", () => {
     const header = element(by.css("h1"));
 
     expect(title).to.equal("Sandbox");
-    expect(await header.getText()).to.equal("Sandbox")
+    expect(await header.getText()).to.equal("Sandbox");
   });
 });
