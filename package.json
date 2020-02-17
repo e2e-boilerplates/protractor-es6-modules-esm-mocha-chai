@@ -1,21 +1,22 @@
 {
-  "name": "protractor-es6-modules-esm-mocha-chai",
+  "name": "protractor-es6-modules-esm-mocha-chai-expect",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha and Chai",
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha, Chai and Expect",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor -r esm protractor.conf.js",
-    "test-ci": "npx protractor -r esm protractor-ci.conf.js"
+    "test": "npx protractor -r esm"
   },
   "keywords": [
     "protractor",
-    "es6 modules",
+    "es6",
     "esm",
     "mocha",
     "chai",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
@@ -38,8 +39,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "dependencies": {
-    "puppeteer": "2.1.1"
   }
 }

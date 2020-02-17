@@ -1,4 +1,4 @@
-name: protractor-es6-modules-esm-mocha-chai
+name: protractor-es6-modules-esm-mocha-chai-expect
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
           npm run lint
       - name: UPDATE WEBDRIVER
         run: |
-          npm run upadte-webderiver
+          npm run upadte-webderiver-ci
       - name: TEST
         run: |
-          npm run test-ci
+          npm run test
