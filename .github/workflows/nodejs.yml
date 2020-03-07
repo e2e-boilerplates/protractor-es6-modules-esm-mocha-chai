@@ -1,4 +1,4 @@
-name: protractor-es6-modules-esm-mocha-chai-expect
+name: protractor-es-modules-esm-mocha-chai-expect
 
 on:
   push:
