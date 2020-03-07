@@ -24,22 +24,22 @@
   },
   "keywords": [
     "chai",
-    "es modules",
+    "es",
     "esm",
     "expect",
     "mocha",
     "protractor"
   ],
   "license": "MIT",
-  "name": "protractor-es6-modules-esm-mocha-chai-expect",
+  "name": "protractor-es-modules-esm-mocha-chai-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-esm-mocha-chai-expect.git"
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es-modules-esm-mocha-chai-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor -r esm"
+    "test": "npx protractor -r esm",
+    "upadte-webderiver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
