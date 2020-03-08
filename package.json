@@ -1,6 +1,7 @@
 {
-  "author": "",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, ESM, Mocha, Chai and Expect",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "dependencies": {},
+  "description": "protractor end-to-end test automation boilerplate.",
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "6.5.1",
@@ -23,10 +24,15 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
+    "e2e",
+    "e2e tests",
     "es",
     "esm",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "protractor"
   ],
@@ -41,6 +47,5 @@
     "test": "npx protractor -r esm",
     "upadte-webderiver": "npx webdriver-manager update"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
