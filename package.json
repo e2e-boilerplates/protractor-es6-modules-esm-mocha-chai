@@ -13,7 +13,7 @@
     "esm": "3.2.25",
     "husky": "4.2.3",
     "jasmine": "3.5.0",
-    "mocha": "7.0.1",
+    "mocha": "7.1.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "protractor": "5.4.3"
