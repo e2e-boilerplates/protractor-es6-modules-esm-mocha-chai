@@ -41,5 +41,6 @@
     "test": "npx protractor -r esm",
     "upadte-webderiver": "npx webdriver-manager update"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "dependencies": {}
 }
