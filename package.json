@@ -1,10 +1,10 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/issues"
   },
   "dependencies": {},
-  "description": "Protractor end-to-end test automation boilerplate. Using Using ES Modules, esm, Mocha, Chai and Expect.",
+  "description": "Protractor end-to-end test automation boilerplate. using ES Modules, esm, Mocha, Chai and Expect.",
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "6.5.1",
@@ -28,14 +28,9 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
-    "e2e",
-    "e2e tests",
     "esm",
-    "example",
     "expect",
-    "integration test",
     "mocha",
     "protractor"
   ],
@@ -48,7 +43,7 @@
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor -r esm",
-    "upadte-webderiver": "npx webdriver-manager update"
+    "update-webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
