@@ -1,9 +1,10 @@
 {
   "env": {
+    "commonjs": true,
     "es6": true,
-    "node": true,
     "mocha": true,
-    "protractor": true
+    "protractor": true,
+    "node": true
   },
   "extends": ["airbnb-base", "plugin:prettier/recommended"]
 }
