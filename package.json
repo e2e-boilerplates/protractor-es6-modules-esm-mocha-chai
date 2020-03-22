@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/issues"
   },
@@ -27,9 +27,14 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
+    "e2e",
+    "e2e tests",
     "esm",
+    "example",
     "expect",
+    "integration test",
     "mocha",
     "protractor"
   ],
