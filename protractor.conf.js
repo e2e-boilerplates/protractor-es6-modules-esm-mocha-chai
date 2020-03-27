@@ -3,7 +3,7 @@ const specs = ["spec/*.spec.js"];
 const framework = "mocha";
 const mochaOpts = {
   reporter: "dot",
-  slow: 3000
+  slow: 3000,
 };
 
 const onPrepare = () => {
@@ -15,11 +15,11 @@ const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
+    browserName: "chrome",
   },
   framework,
   mochaOpts,
-  onPrepare
+  onPrepare,
 };
 
 const headless = {
@@ -28,12 +28,12 @@ const headless = {
   capabilities: {
     browserName: "chrome",
     chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
+      args: ["--headless", "--no-sandbox", "--disable-gpu"],
+    },
   },
   framework,
   mochaOpts,
-  onPrepare
+  onPrepare,
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
