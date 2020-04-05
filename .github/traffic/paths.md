@@ -1,0 +1,12 @@
+| referrer                                                                                              | count | uniques |
+| :---------------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect                                          | 4     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/actions                                  | 3     | 2       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/runs/526337665                           | 3     | 2       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/actions/runs/61114995                    | 2     | 2       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/actions/runs/62952780                    | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/actions/runs/67890414                    | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/blob/master/.github/workflows/nodejs.yml | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/blob/master/package.json                 | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/pull/29                                  | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-esm-mocha-chai-expect/runs/526357032                           | 1     | 1       |
