@@ -2,7 +2,6 @@ import { expect } from "chai";
 
 describe("Sandbox", () => {
   before(() => {
-    this.timeout(20000);
     browser.get("https://e2e-boilerplate.github.io/sandbox/");
   });
 
@@ -13,4 +12,4 @@ describe("Sandbox", () => {
     expect(title).to.equal("Sandbox");
     expect(await header.getText()).to.equal("Sandbox");
   });
-});
+}).timeout(20000);
