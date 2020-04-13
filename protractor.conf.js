@@ -11,6 +11,8 @@ const mochaOpts = {
 
 const onPrepare = () => {
   browser.waitForAngularEnabled(false);
+  /* eslint-disable-next-line global-require */
+  require("esm");
 };
 
 const headed = {
